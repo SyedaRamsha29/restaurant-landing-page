@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  min-height: 100vh;
+
+  background-image: url(images/img1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: fill;
+  background-color: rgb(152, 47, 47);
+}
+nav {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  padding: 30px;
+  color: rgb(248, 217, 43);
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "Concert One", cursive;
+}
+a:hover {
+  overflow: hidden;
+  color: white;
+}
+nav img {
+  height: 100px;
+  width: 400px;
+}
+.heading h1 {
+  font-family: "Concert One", cursive;
+  font-size: 80px;
+  text-shadow: 1px 1px 4px yellow;
+  color: rgb(232, 117, 36);
+  position: relative;
+  top: 100px;
+  padding-left: 50px;
+}
+.section2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.section2 div {
+  width: 300px;
+  height: 250px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.section2 img {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 80px;
+}
+.section2 p {
+  color: white;
+  font-family: "Concert One", cursive;
+  font-size: 20px;
+  text-align: center;
+}
+.section3 {
+  width: 100%;
+  background-color: rgb(152, 47, 47);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.section3 h2 {
+  font-family: "Concert One", cursive;
+  font-size: 40px;
+  color: yellow;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container img {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 80px;
+}
+.container h3 {
+  padding: 20px;
+  color: orange;
+  font-family: "Concert One", cursive;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  text-shadow: 0px 1px 0px yellow;
+}
+.container p {
+  padding: 20px;
+  color: white;
+  font-family: "Concert One", cursive;
+  text-align: center;
+}
+.fcontainer {
+  background-color: black;
+  color: #ff9933;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 25px;
+  font-size: 19px;
+}
+li {
+  padding: 4px;
+}
+li a {
+  color: #ff9933;
+  text-decoration: none;
+  font-size: 17px;
+}
+input {
+  color: lightgrey;
+  border: none;
+  padding: 2px;
+  margin: 2px;
+}
+.fa {
+  margin: 5px;
+  padding: 18px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #ffd12a;
+  box-shadow: 2px 2px 20px rgb(241, 58, 58);
+  height: 50px;
+}
